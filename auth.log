@@ -1,0 +1,28 @@
+2023-06-21 11:59:12 - Starting SecurityApplication using Java 17.0.5 with PID 4964 (D:\Java-apps\spring-boot-3-jwt-security\target\classes started by User in D:\Java-apps\spring-boot-3-jwt-security)
+2023-06-21 11:59:12 - No active profile set, falling back to 1 default profile: "default"
+2023-06-21 11:59:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21 11:59:12 - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2023-06-21 11:59:13 - Tomcat initialized with port(s): 9090 (http)
+2023-06-21 11:59:13 - Starting service [Tomcat]
+2023-06-21 11:59:13 - Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-06-21 11:59:13 - Initializing Spring embedded WebApplicationContext
+2023-06-21 11:59:13 - Root WebApplicationContext: initialization completed in 736 ms
+2023-06-21 11:59:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21 11:59:13 - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-21 11:59:13 - HikariPool-1 - Starting...
+2023-06-21 11:59:13 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c16677c
+2023-06-21 11:59:13 - HikariPool-1 - Start completed.
+2023-06-21 11:59:13 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-21 11:59:13 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21 11:59:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21 11:59:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21 11:59:14 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47bbf44d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35c9f527, org.springframework.security.web.context.SecurityContextHolderFilter@20fdaf3e, org.springframework.security.web.header.HeaderWriterFilter@45cddfd3, org.springframework.security.web.authentication.logout.LogoutFilter@6afb240d, com.alibou.security.jwt.JwtAuthenticationFilter@49654a35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9d2c0ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@272485a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52b7c1d9, org.springframework.security.web.session.SessionManagementFilter@33d2f9d3, org.springframework.security.web.access.ExceptionTranslationFilter@5608e254, org.springframework.security.web.access.intercept.AuthorizationFilter@13cc3984]
+2023-06-21 11:59:14 - Tomcat started on port(s): 9090 (http) with context path ''
+2023-06-21 11:59:14 - Started SecurityApplication in 2.406 seconds (process running for 2.698)
+2023-06-21 12:00:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21 12:00:49 - Initializing Servlet 'dispatcherServlet'
+2023-06-21 12:00:49 - Completed initialization in 1 ms
+2023-06-21 14:03:44 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m59s105ms743µs800ns).
+2023-06-21 17:52:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21 17:52:39 - HikariPool-1 - Shutdown initiated...
+2023-06-21 17:52:39 - HikariPool-1 - Shutdown completed.
